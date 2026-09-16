@@ -22,7 +22,8 @@ Symptoms before the fix:
 - No internet meant no direct driver downloads *on that machine*
 - **Workaround:** downloaded drivers on a separate laptop → transferred via USB pendrive → repeated multiple times as different driver attempts failed
 
-**[IMAGE PLACEHOLDER — Device Manager with yellow-warning icon on an unknown device]**
+![Wifi Missing](images/No%20Wifi.jpeg)
+![Driver Missing](images/Issue.jpeg)
 
 ### 3. The Breakthrough: Find the Exact Hardware ID
 
@@ -35,7 +36,7 @@ Result: **PCI\VEN_14C3&DEV_7961**
 - `VEN_14C3` = MediaTek
 - `DEV_7961` = MT7921 (WiFi chip)
 
-**[IMAGE PLACEHOLDER — Hardware Ids dropdown screenshot]**
+![Wifi Missing](images/Adapter.jpeg)
 
 ### 4. Correct Driver Source
 
@@ -45,6 +46,7 @@ Search using the hardware ID or chip name — **not** the laptop model:
 ✅ Working driver found here:
 [DriversCloud — MediaTek MT7921 WLAN Driver](https://www.driverscloud.com/en/services/GetInformationDriver/76409-0/mediatek-mediatek-wlanv3401063zip)
 
+![Wifi Missing](images/Download.png)
 ## Is This Driver Laptop-Specific?
 
 No — it's tied to the **hardware chip**, not the laptop brand or model.
@@ -65,6 +67,8 @@ No — it's tied to the **hardware chip**, not the laptop brand or model.
 - [ ] Confirm Windows activation (Settings → System → Activation)
 - [ ] Restore backed-up files
 
+![Wifi Missing](images/Windows.jpeg)
+![Wifi Missing](images/Wifi%20Working.jpeg)
 ## Key Lessons
 
 1. **Always find the exact Hardware ID before searching for a driver.** Model-based searches are unreliable — the same model can ship with different components.

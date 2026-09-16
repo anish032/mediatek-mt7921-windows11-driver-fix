@@ -60,12 +60,12 @@ No — it's tied to the **hardware chip**, not the laptop brand or model.
 
 ## Post-Fix Checklist
 
-- [ ] Run Windows Update repeatedly (2–4 rounds) — picks up touchpad, Bluetooth, audio, chipset drivers
-- [ ] Check Device Manager for remaining yellow-warning devices
-- [ ] Install NVIDIA driver directly from NVIDIA (for dedicated GPU laptops)
-- [ ] Optional: install Acer NitroSense / Acer Care Center
-- [ ] Confirm Windows activation (Settings → System → Activation)
-- [ ] Restore backed-up files
+- [✅ ] Run Windows Update repeatedly (2–4 rounds) — picks up touchpad, Bluetooth, audio, chipset drivers
+- [✅] Check Device Manager for remaining yellow-warning devices
+- [✅] Install NVIDIA driver directly from NVIDIA (for dedicated GPU laptops)
+- [✅] Optional: install Acer NitroSense / Acer Care Center
+- [✅] Confirm Windows activation (Settings → System → Activation)
+- [✅] Restore backed-up files
 
 ![Wifi Missing](images/Windows.jpeg)
 ![Wifi Missing](images/Wifi%20Working.jpeg)
